@@ -108,12 +108,16 @@ entry1.focus_set()
 
 Label(frame1,bg="#00202e").grid(row=1, column=0)
 #____Frame1 button_____
-btn1 = Button(frame1, text="convert", fg="#fff",bg="#00394a", borderwidth=0, padx=60,pady=3, font=('Franklin Gothic Demi',13,"bold italic"), command=entry_1 )
+btn1 = Button(frame1, 
+              text="convert",
+              fg="#fff",bg="#00394a",
+              borderwidth=0,
+              padx=60,
+              pady=3,
+              font=('Franklin Gothic Demi',13,"bold italic"),
+              command=entry_1 )
+
 btn1.grid(row=2, column =0)
-
-
-#_______________________________________________________________________________________________________________________________
-
 
 
 #_____________Frame Two Section________________
@@ -122,11 +126,17 @@ entry2.grid(row=0, column =1)
 
 Label(frame2,bg="#00202e").grid(row=1, column=1)
 #____Frame2 button_____
-btn2 = Button(frame2, text="convert", fg="#fff",bg="#00394a", borderwidth=0, padx=60,pady=3, font=('Franklin Gothic Demi',13,"bold italic"), command=entry_2)
+btn2 = Button(frame2,
+              text="convert",
+              fg="#fff",
+              bg="#00394a",
+              borderwidth=0,
+              padx=60,
+              pady=3,
+              font=('Franklin Gothic Demi',13,"bold italic"),
+              command=entry_2)
 btn2.grid(row=2, column =1)
 
-
-
-
-
 root.mainloop()
+
+
