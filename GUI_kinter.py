@@ -97,10 +97,6 @@ Label(frame2,
 
 
 
-
-
-
-
 #_____________Frame one Section________________
 entry1 = Entry(frame1,width=35, font=('Arial',"16","bold"), borderwidth=10, bg="#01394a", fg="#fff", relief="groove", )
 entry1.grid(row=0, column =0)
